@@ -57,6 +57,12 @@
 	display: none;
 }
 
+.fa-cart-plus {
+	margin-left: 3rem;
+	font-size: 2rem;
+	color: black;
+}
+
 @media screen and (max-width: 960px) {
 	.NavbarItems {
 		position: relative;
