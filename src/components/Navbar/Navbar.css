@@ -108,11 +108,8 @@
 	}
 
 	.menu-icon {
-		display: block;
-		position: absolute;
-		top: 0;
-		right: 0;
-		transform: translate(-100%, 60%);
+		display: flex;
+		justify-content: center;
 		font-size: 1.8rem;
 		cursor: pointer;
 	}
@@ -143,5 +140,10 @@
 
 	Button {
 		display: none;
+	}
+
+	.fa-cart-plus {
+		position: absolute;
+		right: 100px;
 	}
 }
