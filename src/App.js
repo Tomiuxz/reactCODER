@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
 import Navbar from "./components/Navbar/Navbar";
-import "./App.css";
 import { ItemListContainer } from "./components/CartWidget/ItemListContainer";
+import "./App.css";
+
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       <ItemListContainer greetings="Hola!" />
       <header className="App-header">
         <h2>Welcome to Gaming Gods!</h2>
-        <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
   );
