@@ -21,11 +21,19 @@ function ItemCounter({ initial, stock, onAdd }) {
 
 	return (
 		<div className="block">
-			<button className="btn btn-medium" onClick={handleAumentar}>{" "} + {" "}</button>
+			<button className="btn btn-medium" onClick={handleAumentar}>
+				{" "}
+				+{" "}
+			</button>
 			{contador}
-			<button className="btn btn-medium" onClick={handleRestar}>{" "} - {" "}</button>
+			<button className="btn btn-medium" onClick={handleRestar}>
+				{" "}
+				-{" "}
+			</button>
 			<br></br>
-			<button className="btn btn--primary btn-medium" onClick={agregar}>Agregar al carrito</button>
+			<button className="btn btn--primary btn-medium" onClick={agregar}>
+				Agregar al carrito
+			</button>
 		</div>
 	);
 }
